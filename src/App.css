@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+.app { min-height: 100vh; background: #f1f5f9; display: flex; justify-content: center; align-items: center; padding: 20px; }
+.container { width: 100%; max-width: 500px; }
+.main-title { text-align: center; margin-bottom: 25px; color: #1e293b; font-size: 22px; }
+.counter-card { background: white; padding: 35px 30px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.08); text-align: center; }
+.counter-card h2 { color: #1e293b; }
+.info { color: #64748b; font-size: 13px; margin: 6px 0 20px; background: #f8fafc; padding: 6px 12px; border-radius: 20px; display: inline-block; }
+.count-box { background: linear-gradient(135deg, #6c5ce7, #a29bfe); color: white; padding: 30px; border-radius: 16px; margin: 10px 0 25px; }
+.count-box h1 { font-size: 70px; line-height: 1; }
+.count-box p { margin-top: 8px; opacity: 0.9; font-size: 14px; }
+.btn-group { display: flex; gap: 12px; justify-content: center; }
+.btn { flex: 1; padding: 13px; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; color: white; font-size: 14px; transition: 0.2s; }
+.btn:active { transform: scale(0.96); }
+.increment { background: #00b894; }
+.decrement { background: #d63031; }
+.reset { background: #636e72; }
+.code-info { margin-top: 22px; padding: 12px; background: #f1f5f9; border-radius: 10px; font-size: 12px; color: #475569; }
+.code-info span { color: #6c5ce7; font-weight: bold; }
